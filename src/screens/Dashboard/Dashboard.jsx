@@ -9,7 +9,7 @@ const Dashboard = () => {
   useEffect(() => {
     (async () => {
       // Replace API path here
-      await axios.get("/ministry/leaves").then((res) => {
+      await axios.get("").then((res) => {
         setData(res.data);
       });
     })();
